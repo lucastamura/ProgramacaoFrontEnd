@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+
+.container{
+    width: 1422px;
+}
+
+.topo{
+    display: flex;
+    gap: 129px;
+    
+}
+
+.texts{
+    display: flex;
+    flex-direction: column;
+   gap:32px;
+}
+
+.titulo1{
+    
+    font-style: SemiBold;
+    font-size: 56px;
+    line-height: 62px;
+    line-height: 110%;
+    
+}
+
+.corpo{
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #4E4B59;
+    
+} 
+
+.planos{
+    display: flex;
+    align-items: center;
+    gap: 29px;
+    width: 100%;
+    justify-content: center;
+  
+}
+
+
+.plano1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    gap: 32px;
+    
+    width: 389px;
+    height: 517px;
+    left: 143px;
+    top: 811px;
+    background: #F6F6F6;
+    box-shadow: 3px 5px 14px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+
+}
+
+.titulob{
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: -1px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.precob{
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #4E4B59;
+}
+
+.corpob{
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #4E4B59;
+}
+
+.plano2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    gap: 32px;
+
+    
+    width: 389px;
+    height: 609px;
+    left: 561px;
+    top: 765px;
+
+    background: #89C400;
+    box-shadow: 3px 5px 14px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+}
+
+.pacote{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 4px 10px;
+    width: 170px;
+    height: 34px;
+    background: #1084C7;
+    border-radius: 20px;
+
+}
+
+.titulop{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+    color: #F1F0F5;
+}
+
+.precop{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #F1F0F5;
+}
+
+.corpop{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #F1F0F5;
+}
+
+
+.plano3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    gap: 32px;
+    
+    width: 389px;
+    height: 543px;
+    left: 979px;
+    top: 798px;
+
+    background: #F6F6F6;
+    box-shadow: 3px 5px 14px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+}
+
+.titulopp{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+    color: #000000;
+
+}
+
+.precopp{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #4E4B59;
+}
+
+.corpopp{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #4E4B59;
+
+}
